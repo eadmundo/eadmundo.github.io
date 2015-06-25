@@ -1,0 +1,29 @@
+{
+  "name": "eadmundo.github.io",
+  "version": "0.0.1",
+  "description": "eadmundo.com site",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eadmundo/eadmundo.github.io"
+  },
+  "author": "Edward Stone <edwardjstone@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.3",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "manifest-revision-webpack-plugin": "0.0.5",
+    "webpack": "^1.9.10"
+  },
+  "bugs": {
+    "url": "https://github.com/eadmundo/eadmundo.github.io/issues"
+  },
+  "homepage": "http://www.eadmundo.com",
+  "devDependencies": {
+    "css-loader": "^0.15.1",
+    "style-loader": "^0.12.3"
+  }
+}

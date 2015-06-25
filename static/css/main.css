@@ -1,0 +1,39 @@
+html {
+    font-size: 16px;
+}
+body {
+    background: #2E334A;
+    font-family: 'Muli', Verdana, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    -moz-osx-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    line-height: 1;
+    color: #B7B8BF;
+    margin: 0 auto;
+    max-width: 600px;
+}
+h1.logotype {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    color: #fff;
+}
+article header h1 {
+    font-family: 'Ovo', Georgia, serif;
+    font-weight: 400;
+    color: #8EC9D2;
+}
+article p {
+    line-height: 1.4;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width : 568px) {
+    html {
+        font-size: 20px;
+    }
+    body {
+        max-width: 90%;
+        font-size: 2.4rem;
+    }
+}
